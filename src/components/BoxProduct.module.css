@@ -1,0 +1,55 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #d3d3d3;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  background-color: #faf5f5;
+  padding: 10px;
+}
+
+.boxInput{
+    display: flex
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(31, 151, 67);
+  width: 100px;
+  border: none;
+}
+
+button:hover {
+  background-color: rgb(93, 141, 106);
+}
+
+input {
+  border-radius: 10px;
+  border: 1px solid #d3d3d3;
+  max-width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 40px;
+  color: black;
+}
+
+p {
+  color: black;
+  font-weight: bolder;
+}
+
