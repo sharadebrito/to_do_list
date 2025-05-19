@@ -17,7 +17,7 @@ function BoxProduct() {
     } else {
       setList((prevList) => [...prevList, produtos]);
       setProdutos("");
-      setMensagem("Adicionado com sucesso");
+      setMensagem("Adicionado com sucesso!");
     }
   }
 
